@@ -151,7 +151,6 @@
                 android:textSize="@dimen/calcButtonTextSize"
                 android:background=""
                 android:textColor="@color/white"
-                android:onClick="FourOnclick"
                 android:text="4"/>
 
             <Button
@@ -160,7 +159,6 @@
                 android:layout_weight="1"
                 android:background=""
                 android:text="5"
-                android:onClick="FiveOnclick"
                 android:textColor="@color/white"
                 android:textSize="@dimen/calcButtonTextSize"
                 tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
@@ -171,7 +169,6 @@
                 android:textSize="@dimen/calcButtonTextSize"
                 android:background=""
                 android:textColor="@color/white"
-                android:onClick="SixOnclick"
                 android:text="6"/>
             <Button
                 android:layout_width="0dp"
@@ -180,7 +177,6 @@
                 android:textSize="@dimen/calcButtonTextSize"
                 android:background=""
                 android:textColor="@color/orange"
-                android:onClick="MinusOnclick"
                 android:text="-"/>
         </LinearLayout>
 
@@ -196,7 +192,6 @@
                 android:textSize="@dimen/calcButtonTextSize"
                 android:background=""
                 android:textColor="@color/white"
-                android:onClick="OneOnclick"
                 android:text="1"/>
 
             <Button
@@ -206,7 +201,6 @@
                 android:textSize="@dimen/calcButtonTextSize"
                 android:background=""
                 android:textColor="@color/white"
-                android:onClick="TwoOnclick"
                 android:text="2"/>
             <Button
                 android:layout_width="0dp"
@@ -215,7 +209,6 @@
                 android:textSize="@dimen/calcButtonTextSize"
                 android:background=""
                 android:textColor="@color/white"
-                android:onClick="ThreeOnclick"
                 android:text="3"/>
             <Button
                 android:layout_width="0dp"
@@ -224,7 +217,6 @@
                 android:textSize="@dimen/calcButtonTextSize"
                 android:background=""
                 android:textColor="@color/orange"
-                android:onClick="PlusOnclick"
                 android:text="+"/>
         </LinearLayout>
         <LinearLayout
@@ -239,7 +231,6 @@
                 android:textSize="@dimen/calcButtonTextSize"
                 android:background=""
                 android:textColor="@color/white"
-                android:onClick="DotOnclick"
                 android:text="."/>
 
 
@@ -250,7 +241,6 @@
                 android:textSize="@dimen/calcButtonTextSize"
                 android:background=""
                 android:textColor="@color/white"
-                android:onClick="ZeroOnclick"
                 android:text="0"/>
 
             <Button
@@ -258,7 +248,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:background="@color/orange"
-                android:onClick="EqualOnclick"
                 android:text="="
                 android:textColor="#455A64"
                 android:textSize="40sp" />
