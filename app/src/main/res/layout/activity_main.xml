@@ -241,7 +241,7 @@
                 android:textSize="@dimen/calcButtonTextSize"
                 android:background=""
                 android:textColor="@color/white"
-                android:text="0"/>
+                android:text= "0"/>
 
             <Button
                 android:layout_width="0dp"
