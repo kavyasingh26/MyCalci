@@ -250,7 +250,7 @@
                 android:background="@color/orange"
                 android:text="="
                 android:textColor="#455A64"
-                android:textSize="40sp" />
+                android:="40sp" />
         </LinearLayout>
 
 
