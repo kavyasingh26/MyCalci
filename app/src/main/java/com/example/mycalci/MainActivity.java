@@ -97,6 +97,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void EqualOnclick(View view) {
+         Double result =null;
+        ScriptEngine engine = new ScriptEngineManager().getEngineByName(shortName:"rhio");
+        
+        try{
+            result = (double)engine.eval(workings);
+        }catch (ScriptException e)
+        {
+            Toast.makeText(context: this, text: "Invalid Input", Toast.LENGTH_SHORT).show();
+        }
+        if(result != null)
+            resultsTV.setText(String.ValueOf(result.doubleValue()));
+    }
+     public void bracketsOnClick(View view)
+     {
+     }
+         
     }
     
     public void decimalOnClick(View view)
