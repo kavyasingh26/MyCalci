@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         workings TV .setText("");
         workings = "";
         resultsTV.setText(""); 
+        leftbracket=true; 
         
     }
 
@@ -99,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
     public void EqualOnclick(View view) {
          Double result =null;
         ScriptEngine engine = new ScriptEngineManager().getEngineByName(shortName:"rhio");
+        checkforpowerof();
         
         try{
             result = (double)engine.eval(workings);
@@ -109,8 +111,18 @@ public class MainActivity extends AppCompatActivity {
         if(result != null)
             resultsTV.setText(String.ValueOf(result.doubleValue()));
     }
+    boolean leftbreacket =true;
      public void bracketsOnClick(View view)
      {
+         if(left bracket)
+         {
+             setworkings("(");
+          leftbracker = false;
+         }
+         elsw{ 
+            setworkings("(");
+          leftbracker = true;
+         }
      }
          
     }
