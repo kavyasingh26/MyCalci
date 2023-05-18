@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
          
     }
     
-    public  void decimalOnClick(View view)
+    public  void decimalOnClick(View view);
     {
         setWorkings(".");
     }    
